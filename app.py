@@ -1,7 +1,11 @@
-from flask import Flask, render_template, redirect, url_for
-from flask_pymongo import PyMongo
-from flask import jsonify
 import os
+import pandas as pd
+import numpy as np
+
+from flask import Flask, render_template, redirect, url_for, jsonify
+import json
+from bson import json_util
+
 
 # Create an instance of Flask
 app = Flask(__name__)
@@ -9,7 +13,6 @@ app = Flask(__name__)
 #Route for index.html
 @app.route("/")
 @app.route("/index.html")
-@app.route("/home")
 @app.route("/index")
 def home():
     return render_template("index.html")
@@ -18,6 +21,11 @@ def home():
 @app.route("/sales")
 def sale():
     return render_template("sales.html")
+
+#Route for stock.html
+@app.route("/stock")
+def stock():
+    return render_template("stock.html")
 
 if __name__ == "__main__":
     app.run(debug=True)

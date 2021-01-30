@@ -9,6 +9,7 @@ app = Flask(__name__)
 #Route for index.html
 @app.route("/")
 @app.route("/home")
+@app.route("/index")
 @app.route("/index.html")
 def home():
     return render_template("index.html")

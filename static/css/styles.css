@@ -1,0 +1,17 @@
+.summary {
+  background-color: tomato;
+  color: black;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+} 
+
+  .copyright {
+    font-size: 9px;
+    font-weight: lighter;
+    color: rgb(95, 92, 92);
+  }
+  
+  
+  /* ----FOOTER END---- */
+  

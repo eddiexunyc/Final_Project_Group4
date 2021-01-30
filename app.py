@@ -8,11 +8,16 @@ app = Flask(__name__)
 
 #Route for index.html
 @app.route("/")
+@app.route("/index.html")
 @app.route("/home")
 @app.route("/index")
-@app.route("/index.html")
 def home():
     return render_template("index.html")
+
+#Route for sale.html
+@app.route("/sales")
+def sale():
+    return render_template("sales.html")
 
 if __name__ == "__main__":
     app.run(debug=True)

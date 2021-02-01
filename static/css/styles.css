@@ -1,15 +1,9 @@
-.navigation .navbar-brand img{
-  width: 10;
-  height: 10;
-  max-width: 100;
-  max-width: 100;
-  background-color: transparent;
+#logo {
+  vertical-align:middle;
+  background: #fff !important;
+  
 }
 
-img {
-  max-width: 100;
-  max-height: 100;
-}
 
 .summary {
   background-color: tomato;

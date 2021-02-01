@@ -1,10 +1,4 @@
-import os
-import pandas as pd
-import numpy as np
-
 from flask import Flask, render_template, redirect, url_for, jsonify
-import json
-from bson import json_util
 
 
 # Create an instance of Flask

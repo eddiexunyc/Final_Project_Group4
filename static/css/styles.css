@@ -14,7 +14,13 @@ body {
   background-position: center top;
   background-size: cover;  
 }
-body 
+
+span {
+  position: absolute;
+  padding-left: 10;
+
+}
+
 .summary {
   background-color: tomato;
   color: black;

@@ -3,7 +3,7 @@ from flask import Flask, render_template, redirect, url_for, jsonify
 
 
 # Create an instance of Flask
-app = Flask(__name__, static_url_path = " ")
+app = Flask(__name__, static_url_path = "")
 
 #Route for index.html
 @app.route("/")

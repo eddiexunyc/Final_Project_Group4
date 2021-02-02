@@ -1,3 +1,4 @@
+import os
 from flask import Flask, render_template, redirect, url_for, jsonify
 
 
@@ -20,6 +21,10 @@ def sale():
 @app.route("/stock")
 def stock():
     return render_template("stock.html")
+
+@app.route("/forecast")
+def forecast():
+    return render_template("forecast.html")
 
 if __name__ == "__main__":
     app.run(debug=True)

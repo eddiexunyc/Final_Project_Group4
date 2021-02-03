@@ -3,8 +3,11 @@ Project 4 - Forecasting Tesla’s stock price based on historical sales data
 Group Members:
 
 Robert Motta
+
 Vasudha Nair
+
 Eddie Xu
+
 Joshua Sohan
 
 Proposal:
@@ -27,12 +30,16 @@ a. Use Pandas/ETL/PostgreSQL/ to clean the data and print the clean data
 b. Use Machine Learning(SKLearn) to forecast the future Tesla sales or Tesla’s stock prices.
 
 c. Use Tableau to produce visualizations to display our historical data.
+
     1. Stock Visuals: https://public.tableau.com/profile/robert.motta#!/vizhome/tesla_stock_viz/TeslaStockData?publish=yes
+
     2. Sales visuals: https://public.tableau.com/profile/robert.motta#!/vizhome/tesla_stock_viz/TeslaStockData?publish=yes
+
     3. Forecast Visuals: https://public.tableau.com/profile/robert.motta#!/vizhome/tesla_forecast/StockForecast
 
 
 d. Use Heroku to deploy our website(https://tesla-analysis.herokuapp.com/)
+
 i. Use Flask/CSS/HTML to program our website.
 ii. Use Tableau to embed the visualisation in HTML
 

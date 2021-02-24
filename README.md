@@ -1,14 +1,10 @@
-# Final_Project_Group4
-Project 4 - Forecasting Tesla’s stock price based on historical sales data
+# Tesla Business Analysis
+Project Description: Forecasting Tesla’s stock price based on historical sales data
 Group Members:
-
-Robert Motta
-
-Vasudha Nair
-
-Eddie Xu
-
-Joshua Sohan
+- Robert Motta
+- Vasudha Nair
+- Eddie Xu
+- Joshua Sohan
 
 Proposal:
 Using the 2010 -2020 Tesla dataset, we would like to assess the historical stock data , train our model to predict future stock prices for Tesla and compare and contrast other electric vehicles(EVs) for our overall company analysis.
